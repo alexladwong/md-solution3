@@ -1,0 +1,190 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #989999;
+  border-style: solid;
+  border-color: #000;
+  border-inline: 3px 3px 4px 5px;
+  border-radius:0%;
+
+
+}
+#header-nav h1 {
+  margin-left: -68px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  color: #000;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* BEGINNING OF THE BODY */
+
+
+#favorite-menu{
+  background-color:#989999;
+  text-align: center;
+  color:#000;
+  width: 80vh;
+  padding-bottom: 50px;
+  margin: 0px;
+  margin-top: 50px;
+}
+.our-menu, h5 {
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 22px;
+  font-weight: bolder;
+  text-align: center;
+}
+h5, .span {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+/* ENDING OF THE BODY */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .navbar-brand h1 { /* Restaurant name */
+    padding-left: 50px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    margin-right: -50px;
+  }
+  #favorite-menu{
+    background-color:#989999;
+    text-align: center;
+    color:#000;
+    width: 75vh;
+    padding-bottom: 50px;
+    margin: 0px;
+    margin-top: 50px;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-left: -15px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 751px) and (max-width: 1199px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-left: 50px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    margin-left: 80px;
+  }
+  #favorite-menu{
+    background-color:#989999;
+    text-align: center;
+    color:#000;
+    width: 60vh;
+    padding-bottom: 50px;
+    margin: 0px;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-left: 40px;
+  }
+
+  /* End Header */
+}
+/********** Extra small devices only **********/
+@media (max-width: 750px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+    padding-left: 100px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 1.5em; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.3em;
+    
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #favorite-menu{
+    background-color:#989999;
+    text-align: center;
+    color:#000;
+    width: 60vh;
+    padding-bottom: 50px;
+    margin: 0px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: -25px;
+  }
+
+  /* End Header */
+
+}
+
+
+
